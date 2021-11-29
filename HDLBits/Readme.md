@@ -1,6 +1,6 @@
 # HDLBits — Verilog Practice
 
-[HDLBits][https://hdlbits.01xz.net/wiki/Main_Page]
+This directory contains verified answers to problems on [HDLBits](https://hdlbits.01xz.net/wiki/Main_Page).
 
 HDLBits is a collection of small circuit design exercises for practicing digital hardware design using Verilog Hardware Description Language (HDL). Earlier problems follow a tutorial style, while later problems will increasingly challenge your circuit design skills.
 
