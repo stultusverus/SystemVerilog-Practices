@@ -6,7 +6,7 @@ module top (
     output [0:3] LD
 );
 
-    parameter [31:0] LED_MIN_PERIOD = 32'd100_000_000 / 8;
+    parameter bit [31:0] LED_MIN_PERIOD = 32'd100_000_000 / 8;
 
     wire clk;         // 100 MHz
     wire reset = RST;

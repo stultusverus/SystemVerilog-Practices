@@ -5,7 +5,7 @@ module top_module (
 
     genvar i;
     generate
-        for (i = 0; i < 4; i++) begin: out_in
+        for (i = 0; i < 4; i++) begin: gen_out_in
             assign out[i*8+:8] = in[(3-i)*8+:8];
         end
     endgenerate
